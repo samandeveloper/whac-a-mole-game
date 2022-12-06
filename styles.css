@@ -1,0 +1,26 @@
+body{
+	background-color: rgba(128, 128, 128, 0.034);
+}
+.grid {
+	width: 606px;
+	height: 606px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px auto;
+}
+
+.square {
+	height: 200px;
+	width: 200px;
+	border: solid black 1px;
+}
+
+.mole {
+	background-image: url("mole.jpg");
+	background-size: cover;
+}
+
+.text{
+	text-align: center;
+	margin-top: 20px;
+}
